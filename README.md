@@ -12,4 +12,8 @@ Uygulama kısmında "members" tablosuna yeni bir üye ekleyebilirim, üye bilgil
 Anlaşıldığı üzere "memberId" bilgisini "members" tablosundaki "id" bilgisinden, "bookId" bilgisini de "books" tablosundaki "id" bilgisinden alıyorum. Bunun için foreign key tanımlıyorum. <br>
 Böylece ilişkisel veri tabanları yöntemini kullanmış oluyorum. <br>
 Kitap ödünç alma işlemini yaparken bizden önce "bookId" ve "memberId" bilgilerini girmemiz isteniyor. Ardından kitabın mevcut olup olmadığı kontrol ediliyor eğer mevcut ise kitap veriliyor. Teslim tarihi otomatik hesaplanıp işlemin yapıldığı tarih bilgisiyle beraber veri tabanımıza ("loans" tablosuna) kaydediliyor. 
- 
+
+## Lisans
+
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
+
